@@ -1,0 +1,136 @@
+@media screen and (max-width:1402px)
+{
+    header {
+        width: 95%;
+        
+    }
+    .home {
+        
+        width: 95%;
+       
+    }
+    section {
+       
+        width: 95%;
+        
+    }
+}
+@media screen and (max-width:971px)
+{
+    header .content .choose_bx {
+   
+        width: 95%;
+        
+    }
+    header .content .choose_bx .select .card:nth-child(3) .date h3 {
+        width: 90px;
+        font-size: 15px;
+    }
+    .home .home_bx {
+        
+        flex-wrap: wrap;
+    }
+    .home .home_bx .card {
+       
+        margin-top: 40px;
+       
+    }
+    .home {
+
+    
+        height: auto;
+       
+    }
+    section {
+        top: -100px;
+    }
+    section .box .cont_box ul li {
+       
+        width: 205px;
+       
+    }
+    @media screen and (max-width:767px)
+    {
+        header .content .cont_bx h1 {
+            color: white;
+        }
+        header .content .cont_bx p {
+            color: white;
+        }
+        header .content .cont_bx .weather h6 {
+            
+            font-weight: bold;
+        }
+        header .content .cont_bx .btns_cont {
+            margin-top: 10px;
+            color: white;
+        }
+        header .content .cont_bx .btns_cont {
+           
+            color: white;
+        }
+        
+
+
+
+        header .content .choose_bx .select {
+           
+            height: auto;
+            flex-wrap: wrap;
+        }
+        header .content .choose_bx .select .card {
+            width: 49%;
+        
+        }
+        header .content .choose_bx .select .card:nth-child(3) {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 15px;
+        }
+        header .content .choose_bx .select .card:nth-child(3) {
+            width: 100%;
+            margin-top: 5px;
+        }
+        header .content .choose_bx .select .card:nth-child(3) .date h3 {
+            width: 110px;
+            font-size: 15px;
+        }
+        .home .home_bx {
+            width: 100%;
+            justify-content: center;
+           
+           
+        }
+        .home .home_bx .card {
+           
+           
+            margin: 10px;
+            justify-content: center;
+        }
+        .home {
+            width: 100%;
+        }
+        header {
+            width: 95%;
+            overflow: hidden;
+        }
+   
+        section .box .img_bx, .cont_box {
+            width: 100%;
+           
+        }
+        section .box .cont_box {
+            margin-left: 35px;
+            width: 95%;
+            margin-top: 30px;
+        }
+        section .box {
+       
+            flex-direction: column;
+        }
+    }
+
+    
+}
